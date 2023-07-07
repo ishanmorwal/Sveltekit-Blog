@@ -3,9 +3,14 @@
 
 	export let data
 </script>
-
+<style>
+  :root{
+    --theme-font-family-base:'Bacasime Antique';
+    --theme-font-family-heading:'Bacasime Antique';
+  }
+</style>
 <main class="container mt-32">
-	<h1 class="capitalize">Latest posts</h1>
+	<h1 class="capitalize">Recent Logs</h1>
 
 	<div class="mt-8 space-y-6">
 		{#each data.posts as post, i}

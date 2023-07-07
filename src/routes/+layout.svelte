@@ -4,7 +4,7 @@
 	import Heading from './heading.svelte'
 	import Footer from './footer.svelte'
 
-	import '@skeletonlabs/skeleton/themes/theme-crimson.css'
+	import '@skeletonlabs/skeleton/themes/theme-rocket.css'
 	import '@skeletonlabs/skeleton/styles/all.css'
 	import '../app.postcss'
 
@@ -12,8 +12,8 @@
 </script>
 
 <svelte:head>
-	<title>Blog</title>
-	<link rel="icon" href="https://fav.farm/🔥" />
+	<title>Logs - More than simple blogs</title>
+<link rel="icon" href="https://fav.farm/🖥" />
 </svelte:head>
 
 <Heading />

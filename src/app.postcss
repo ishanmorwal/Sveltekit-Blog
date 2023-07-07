@@ -4,13 +4,24 @@ html,
 body {
 	@apply h-full;
 }
-
+:root{
+    --theme-font-family-base:'Bacasime Antique';
+    --theme-font-family-heading:'Bacasime Antique';
+  }
 @layer components {
 	.container {
 		@apply mx-auto max-w-4xl p-6 lg:p-0;
 	}
 
 	.muted {
-		@apply text-gray-600 underline-offset-4 transition-all hover:underline dark:text-gray-300 dark:hover:text-primary-500;
+		@apply text-gray-600 underline-offset-4 transition-all  hover:underline dark:text-gray-300 dark:hover:text-primary-500;
+
 	}
 }
+
+
+@font-face{
+    font-family:'Bacasime Antique';
+    font-weight:bolder;
+    src:url('/static/fonts/BacasimeAntique-Regular.ttf');
+  }
