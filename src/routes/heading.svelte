@@ -8,13 +8,13 @@
 
 <nav class="container mt-8 flex justify-between">
 	<a class="unstyled text-xl" href="/">
-		<b>🔥 Blog</b>
+		<b>Logs - Better than Blogs</b>
 	</a>
 
 	<div class="flex items-center gap-4">
 		<ol class="flex space-x-4">
 			<li>
-				<a class="unstyled muted" href="/blog">Blog</a>
+				<a class="unstyled muted" href="/blog">Log</a>
 			</li>
 			<li>
 				<a class="unstyled muted" href="/dashboard">Dashboard</a>

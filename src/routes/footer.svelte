@@ -16,9 +16,6 @@
 				<li>
 					<a class="unstyled muted" href="/newsletter">Newsletter</a>
 				</li>
-				<li>
-					<a class="unstyled muted" href="/rss.xml">RSS</a>
-				</li>
 			</ol>
 
 			<ol class="space-y-4">
