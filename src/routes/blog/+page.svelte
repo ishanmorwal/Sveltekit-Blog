@@ -7,7 +7,7 @@
 	let search = ''
 
 	$: filteredPosts = data.posts.filter((post) =>
-		post.title.toLowerCase().includes(search.trim())
+		post.title.toLowerCase().includes(search.toLowerCase().trim())
 	)
 </script>
 
