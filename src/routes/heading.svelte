@@ -8,7 +8,7 @@
 
 <nav class="container mt-8 flex justify-between">
 	<a class="unstyled text-xl" href="/">
-		<b>Logs - Better than Blogs</b>
+		<b>Logs: Better Blogs</b>
 	</a>
 
 	<div class="flex items-center gap-4">
