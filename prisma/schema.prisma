@@ -11,13 +11,14 @@ datasource db {
 }
 
 model User {
-  id      String    @id @unique
-  session Session[]
-  Key     Key[]
-
+  id       String    @id @unique
+  session  Session[]
+  Key      Key[]
+  email    String
   // here you can add custom fields for your user
   // e.g. name, email, username, roles, etc.
-  username String @unique
+  username String    @unique
+  Post     Post[]
 
   @@map("user")
 }
@@ -28,6 +29,7 @@ model Session {
   active_expires BigInt
   idle_expires   BigInt
   user           User   @relation(references: [id], fields: [user_id], onDelete: Cascade)
+  email          String
 
   @@index([user_id])
   @@map("session")
@@ -40,6 +42,7 @@ model Key {
   primary         Boolean
   expires         BigInt?
   user            User    @relation(references: [id], fields: [user_id], onDelete: Cascade)
+  email           String
 
   @@index([user_id])
   @@map("key")
@@ -47,6 +50,7 @@ model Key {
 
 model Post {
   id          Int      @id @default(autoincrement())
+  user_id     String
   createdAt   DateTime @default(now())
   slug        String   @unique
   title       String
@@ -54,6 +58,7 @@ model Post {
   markdown    String
   html        String
   published   Boolean  @default(false)
+  createdBy   User     @relation(references: [id], fields: [user_id], onDelete: Cascade)
 
   @@map("post")
 }
