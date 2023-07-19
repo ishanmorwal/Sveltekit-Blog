@@ -47,7 +47,6 @@ model Key {
 
 model Post {
   id          Int      @id @default(autoincrement())
-  user_id     String
   createdAt   DateTime @default(now())
   slug        String   @unique
   title       String
