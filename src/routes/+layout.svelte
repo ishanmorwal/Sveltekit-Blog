@@ -4,7 +4,7 @@
 	import Heading from './heading.svelte'
 	import Footer from './footer.svelte'
 
-	import '@skeletonlabs/skeleton/themes/theme-rocket.css'
+	import '@skeletonlabs/skeleton/themes/theme-gold-nouveau.css'
 	import '@skeletonlabs/skeleton/styles/all.css'
 	import '../app.postcss'
 
