@@ -5,8 +5,8 @@
 </script>
 <style>
   :root{
-    --theme-font-family-base:'Bacasime Antique';
-    --theme-font-family-heading:'Bacasime Antique';
+    --theme-font-family-base:'Bitter';
+    --theme-font-family-heading:'Bitter';
   }
 </style>
 <main class="container mt-32">
