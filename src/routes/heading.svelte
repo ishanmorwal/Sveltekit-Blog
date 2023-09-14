@@ -7,14 +7,14 @@
 </script>
 
 <nav class="container mt-8 flex justify-between">
-	<a class="unstyled text-xl" href="/">
-		<b>Logs: Better Blogs</b>
+	<a class=" unstyled text-xl" href="/">
+		<h2 class="h2">.words</h2>
 	</a>
 
 	<div class="flex items-center gap-4">
 		<ol class="flex space-x-4">
 			<li>
-				<a class="unstyled muted" href="/blog">Log</a>
+				<a class="unstyled muted" href="/blog">Posts</a>
 			</li>
 			<li>
 				<a class="unstyled muted" href="/dashboard">Dashboard</a>

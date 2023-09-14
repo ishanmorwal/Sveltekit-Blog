@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { date } from '$lib/utils'
-
-	export let data
+	export let data  
 </script>
 <style>
   :root{
@@ -10,8 +9,7 @@
   }
 </style>
 <main class="container mt-32">
-	<h1 class="capitalize">Recent Logs</h1>
-
+	<h1 class="capitalize h1">Recent Posts</h1>
 	<div class="mt-8 space-y-6">
 		{#each data.posts as post, i}
 			<ol>
@@ -36,4 +34,5 @@
 			{/if}
 		{/each}
 	</div>
+  
 </main>

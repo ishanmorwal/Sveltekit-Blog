@@ -12,7 +12,7 @@
 </script>
 
 <svelte:head>
-	<title>Logs - More than simple blogs</title>
+	<title>Words - some for you and some for me</title>
 <link rel="icon" href="https://fav.farm/🖥" />
 </svelte:head>
 
