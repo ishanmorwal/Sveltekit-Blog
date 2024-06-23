@@ -7,7 +7,7 @@ Learn how to deploy a full stack SvelteKit app with [Supabase](https://supabase.
 ### 💾 Create a new GitHub project and use `degit` to copy this project and push it to your repository
 
 ```sh
-pnpx degit Ishaan-FrontendDeveloper/Sveltekit-Blog
+pnpx degit ishanmorwal/Sveltekit-Blog
 ```
 
 ### 📦️ Install dependencies
