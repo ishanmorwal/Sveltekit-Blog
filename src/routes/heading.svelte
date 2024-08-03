@@ -19,9 +19,7 @@
 			<li>
 				<a class="unstyled muted" href="/dashboard">Dashboard</a>
 			</li>
-			<li>
-				<a class="unstyled muted" href="/about">About</a>
-			</li>
+
 
 			{#if $user}
 				<li>

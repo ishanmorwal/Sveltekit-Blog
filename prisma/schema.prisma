@@ -4,10 +4,12 @@
 generator client {
   provider = "prisma-client-js"
 }
+
 datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
+
 model User {
   id       String    @id @unique
   session  Session[]
@@ -15,17 +17,21 @@ model User {
   // here you can add custom fields for your user
   // e.g. name, email, username, roles, etc.
   username String    @unique
+
   @@map("user")
 }
+
 model Session {
   id             String @id @unique
   user_id        String
   active_expires BigInt
   idle_expires   BigInt
   user           User   @relation(references: [id], fields: [user_id], onDelete: Cascade)
+
   @@index([user_id])
   @@map("session")
 }
+
 model Key {
   id              String  @id @unique
   hashed_password String?
@@ -33,9 +39,11 @@ model Key {
   primary         Boolean
   expires         BigInt?
   user            User    @relation(references: [id], fields: [user_id], onDelete: Cascade)
+
   @@index([user_id])
   @@map("key")
 }
+
 model Post {
   id          Int      @id @default(autoincrement())
   createdAt   DateTime @default(now())
@@ -45,5 +53,6 @@ model Post {
   markdown    String
   html        String
   published   Boolean  @default(false)
+
   @@map("post")
 }

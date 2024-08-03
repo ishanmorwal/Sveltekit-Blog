@@ -11,23 +11,16 @@
 					<a class="unstyled muted" href="/">Home</a>
 				</li>
 				<li>
-					<a class="unstyled muted" href="/about">About</a>
-				</li>
-				<li>
 					<a class="unstyled muted" href="/newsletter">Newsletter</a>
 				</li>
 			</ol>
 
 			<ol class="space-y-4">
 				<li>
-					<a class="unstyled muted" href="https://twitter.com/nimonmaizki">
-						Twitter
-					</a>
+					<a class="unstyled muted" href="https://twitter.com"> Twitter </a>
 				</li>
 				<li>
-					<a class="unstyled muted" href="https://github.com/Ishaan-FrontendDeveloper">
-						GitHub
-					</a>
+					<a class="unstyled muted" href="https://github.com"> GitHub </a>
 				</li>
 			</ol>
 		</nav>
