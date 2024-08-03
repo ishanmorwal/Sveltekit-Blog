@@ -1,6 +1,6 @@
 {
 	"functions": {
-		"src/*.ts": {
+		"src/**/*.ts": {
 			"runtime": "nodejs18.x"
 		}
 	}
